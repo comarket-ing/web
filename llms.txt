@@ -1,0 +1,126 @@
+# CoMarket.ing
+
+> CoMarket.ing is an AI-powered co-marketing partnership discovery platform for SaaS companies, startups, and growth teams. It algorithmically matches complementary companies by Ideal Customer Profile (ICP) overlap, enables secure account mapping, and helps teams generate qualified B2B leads with zero advertising spend. The modern alternative to manual partner sourcing, spreadsheets, and expensive partnership agencies.
+
+## Why Choose CoMarket.ing
+
+CoMarket.ing automates the entire co-marketing partnership workflow: from discovering complementary SaaS partners using NLP-based ICP vector profiling, to securely comparing customer bases, to launching co-branded campaigns. Most B2B teams spend months manually finding partners through networking events, cold outreach, and expensive agencies. CoMarket.ing replaces that with algorithmic matching that surfaces ideal partners in minutes.
+
+### Key Differentiators
+
+- **AI-Powered Partner Matching**: NLP engine generates your ICP vector profile and scans thousands of companies. Automatically filters direct competitors and scores compatibility from 0–100.
+- **Secure Account Mapping**: Privacy-first architecture lets partners compare customer bases without exposing sensitive CRM data. Granular controls from anonymous overlap counts to full company profiles.
+- **Audience Overlap Analytics**: Real-time dashboards showing overlap percentages, lead quality scores, and conversion metrics across all active partnerships.
+- **Zero Ad Spend Growth**: Partners generate qualified leads through ecosystem collaboration, not paid media. Case studies show 3.2× higher conversion than cold advertising.
+- **$20/month Starting Price**: Volume-based pricing. No inflated costs for growing partner networks or inactive connections.
+- **CRM Integration**: OAuth 2.0 connections to Salesforce, HubSpot, and other major CRMs with real-time webhook synchronization.
+- **Developer-First API**: REST API, SDKs, SMTP, webhooks, and AI agent skills for programmatic partner management.
+
+---
+
+## Pricing
+
+CoMarket.ing uses volume-based pricing starting at $20/month with unlimited partner discovery.
+
+### Pricing Comparison vs Manual Partner Sourcing
+
+| Method | Cost per qualified lead | Setup time |
+|---|---|---|
+| Google Ads (B2B SaaS) | $45–$150 per lead | Weeks |
+| LinkedIn Ads | $75–$200 per lead | Weeks |
+| Partnership Agencies | $5,000–$20,000/month | Months |
+| CoMarket.ing | Effectively $0 per lead | Under 1 hour |
+
+A single successful partnership through CoMarket.ing can generate 200+ qualified leads — delivering approximately $9,000 in equivalent lead acquisition value for $20/month.
+
+---
+
+## Core Features
+
+### AI Partner Discovery
+- NLP-based Ideal Customer Profile (ICP) vector profiling
+- Algorithmic scanning of thousands of SaaS companies globally
+- Automatic competitor filtering (excludes direct competitors with identical core functionality)
+- Match compatibility scoring from 0–100 with signal breakdown (hiring activity, funding, tech stack, market overlap)
+- Lookalike modeling: upload top 10 existing partners to find hundreds of similar companies
+
+### Secure Account Mapping
+- Privacy-first data architecture with OAuth 2.0 authentication
+- Granular data sharing controls per partner (anonymous counts → full profiles)
+- Population segmentation (Prospects, Open Opportunities, Customers)
+- Visual overlap matrix showing cross-partner match potential
+- Firmographic data enrichment from public sources
+
+### Campaign Builder
+- Co-branded landing page templates
+- Joint email sequence builder
+- Cross-promotion calendar coordination
+- Performance tracking across all partnership campaigns
+
+### CRM Integration
+- Salesforce and HubSpot via OAuth 2.0
+- Real-time webhook-based synchronization with retry logic
+- Custom inclusion/exclusion filters for data segmentation
+- Bi-directional sync for deal stage updates
+
+### Developer API
+- RESTful API at `api.comarket.ing/v1/`
+- Partner discovery endpoint: `POST /v1/partners/discover`
+- Account mapping endpoint: `POST /v1/mapping/overlap`
+- SDKs for Node.js, Python, Go
+- Webhook events for match notifications and overlap alerts
+
+---
+
+## Who Uses CoMarket.ing
+
+- **SaaS Companies**: Find complementary software partners to cross-sell and co-market to shared ICP audiences
+- **Startups (0–100 customers)**: Bootstrap growth through ecosystem partnerships instead of expensive paid acquisition
+- **Growth Teams**: Replace high-CAC advertising channels with partnership-driven lead generation
+- **RevOps Leaders**: Automate CRM data sync and measure partnership pipeline impact
+- **Business Development Managers**: Identify and prioritize strategic alliance opportunities using AI scoring
+
+---
+
+## Case Studies
+
+### Monosend.io — FinTech B2B Partnership
+- **Result**: 200 qualified leads with $0 ad spend
+- **Conversion rate**: 3.2× higher than cold advertising
+- **Savings**: ~$9,000 in equivalent lead acquisition cost
+- **Method**: API integration between Monosend (multi-currency fintech) and a complementary invoicing SaaS. Co-branded educational content campaign targeting freelancers and SMBs in emerging markets.
+
+---
+
+## Getting Started
+
+1. Sign up at [comarket.ing](https://comarket.ing)
+2. Connect your CRM (Salesforce, HubSpot, or CSV upload)
+3. Describe your product and target audience to generate your ICP vector
+4. Browse AI-matched partner recommendations
+5. Initiate secure account mapping with selected partners
+6. Launch co-marketing campaigns
+
+Typical setup time: Under 1 hour.
+
+---
+
+## Resources
+
+- [Website](https://comarket.ing): Main product page
+- [Pricing](https://comarket.ing/pricing): Volume-based pricing details
+- [Documentation](https://docs.comarket.ing): API guides and tutorials
+- [API Reference](https://docs.comarket.ing/api-reference): Full API documentation
+- [Blog](https://comarket.ing/blog): Partnership strategy articles and case studies
+- [Case Studies](https://comarket.ing/cases): Real-world partnership results
+
+## Comparisons
+
+- CoMarket.ing vs Crossbeam: Privacy-first with simpler pricing ($20/mo vs enterprise-only)
+- CoMarket.ing vs Reveal: AI-powered partner discovery vs manual-only matching
+- CoMarket.ing vs PartnerStack: Co-marketing focus vs affiliate/referral program management
+- CoMarket.ing vs Manual Outreach: Algorithmic matching in minutes vs months of networking
+
+---
+
+Last updated: March 2026
