@@ -7,22 +7,40 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://comarket.ing/pricing</loc>
+    <loc>https://comarket.ing/#pricing</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://comarket.ing/blog</loc>
+    <loc>https://comarket.ing/blog.html</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://comarket.ing/cases</loc>
+    <loc>https://comarket.ing/blog-post-content-generation-strategy.html</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://comarket.ing/case-study-monosend.html</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://comarket.ing/privacy.html</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://comarket.ing/terms.html</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://comarket.ing/llms.txt</loc>
