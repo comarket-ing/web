@@ -243,7 +243,7 @@
   <main>
 
     <!-- ===== HERO ===== -->
-    <section class="hero" id="hero">
+    <section class="hero dot-grid" id="hero">
       <img src="hero.png"
         alt="Two SaaS founders shaking hands over partnership agreement with network diagrams and revenue charts — CoMarket.ing co-marketing platform illustration"
         class="hero-illustration" loading="eager" width="1200" height="520">
@@ -260,7 +260,7 @@
     </section>
 
     <!-- ===== SOCIAL PROOF ===== -->
-    <section class="social-proof">
+    <section class="social-proof dot-grid">
       <div class="container social-proof-inner">
         <p class="stat"><strong>2,400+</strong> partnerships formed by SaaS companies of all sizes</p>
         <div class="logos">
@@ -473,21 +473,141 @@
       </div>
     </section>
 
-    <!-- ===== PRICING TEASER ===== -->
-    <section class="section pricing-teaser" id="pricing">
+    <!-- ===== PRICING GRID ===== -->
+    <section class="section pricing-section" id="pricing">
       <div class="container">
-        <span class="label">Volume Based Pricing</span>
-        <h2>Partnership pricing that rewards growth</h2>
-        <p>You only pay for what you use. No inflated costs for growing partner networks or inactive connections.</p>
-        <div class="price-highlight">$20</div>
-        <div class="price-period">/ month — unlimited partner discovery</div>
-        <a href="https://app.comarket.ing/auth?utm_source=comarket.ing&utm_medium=website&utm_campaign=footer_cta"
-          class="btn btn-primary">Get Started</a>
-        <div class="pricing-compare">
-          <p><strong>Save thousands as you scale.</strong> Traditional B2B lead acquisition costs $45+ per lead. A
-            single
-            successful partnership through CoMarket.ing can generate 200+ qualified leads — that's $9,000 in value for
-            $20/month.</p>
+        <span class="label">Simple Pricing</span>
+        <h2>Scaling co-marketing for every team size</h2>
+        <p>Start discovering partners for free, then upgrade when you're ready to scale your outreach and analytics.</p>
+
+        <div class="pricing-grid">
+
+          <!-- Starter -->
+          <div class="pricing-card">
+            <div class="pricing-name">Starter</div>
+            <div class="pricing-price">$29</div>
+            <div class="pricing-period">/ month (7-day free trial)</div>
+            <div class="pricing-purpose">Entry plan for micro-SaaS founders exploring partnerships.</div>
+
+            <div class="pricing-section-title">Features</div>
+            <ul class="pricing-features">
+              <li>Partner discovery marketplace</li>
+              <li>AI partner matching</li>
+              <li>View partner contact details</li>
+              <li>10 collaboration proposals / month</li>
+              <li>Basic audience overlap insights</li>
+              <li>Campaign templates (newsletter swap, cross-promo, webinar)</li>
+            </ul>
+
+            <div class="pricing-section-title">Limits & Targets</div>
+            <ul class="pricing-limits">
+              <li>1 team member</li>
+              <li>No CRM integrations</li>
+              <li>Basic analytics</li>
+            </ul>
+            <ul class="pricing-targets">
+              <li>Indie hackers</li>
+              <li>Early SaaS founders</li>
+            </ul>
+
+            <a href="https://app.comarket.ing/auth?utm_source=comarket.ing&utm_medium=website&utm_campaign=pricing_cta"
+              class="btn btn-secondary">Start Free Trial</a>
+          </div>
+
+          <!-- Growth -->
+          <div class="pricing-card" style="border-color: var(--accent); position: relative;">
+            <div
+              style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--accent); color: white; font-family: var(--font-mono); font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 12px; border-radius: 20px;">
+              Most Popular</div>
+            <div class="pricing-name">Growth</div>
+            <div class="pricing-price">$99</div>
+            <div class="pricing-period">/ month</div>
+            <div class="pricing-purpose">The co-marketing engine for teams scaling their partner pipeline.</div>
+
+            <div class="pricing-section-title">Features</div>
+            <ul class="pricing-features">
+              <li>Unlimited partner discovery</li>
+              <li>Unlimited collaboration proposals</li>
+              <li>Audience overlap analytics</li>
+              <li>Partner CRM</li>
+              <li>Campaign tracking</li>
+              <li>Lead attribution</li>
+              <li>Email outreach automation</li>
+              <li>Slack integration</li>
+            </ul>
+
+            <div class="pricing-section-title">Limits & Targets</div>
+            <ul class="pricing-limits">
+              <li>5 team members</li>
+            </ul>
+            <ul class="pricing-targets">
+              <li>SaaS startups with marketing teams</li>
+              <li>Partnership managers</li>
+            </ul>
+
+            <a href="https://app.comarket.ing/auth?utm_source=comarket.ing&utm_medium=website&utm_campaign=pricing_cta"
+              class="btn btn-primary">Get Started</a>
+          </div>
+
+          <!-- Scale -->
+          <div class="pricing-card">
+            <div class="pricing-name">Scale</div>
+            <div class="pricing-price">$399</div>
+            <div class="pricing-period">/ month</div>
+            <div class="pricing-purpose">Advanced tooling to manage an entire partner ecosystem.</div>
+
+            <div class="pricing-section-title">Features</div>
+            <ul class="pricing-features">
+              <li>Everything in Growth</li>
+              <li>Partner pipeline management</li>
+              <li>Partner performance analytics</li>
+              <li>Partner revenue attribution</li>
+              <li>HubSpot / Salesforce / Pipedrive integrations</li>
+              <li>Automated partner matching</li>
+              <li>API access</li>
+            </ul>
+
+            <div class="pricing-section-title">Limits & Targets</div>
+            <ul class="pricing-limits">
+              <li>20 team members</li>
+            </ul>
+            <ul class="pricing-targets">
+              <li>Series A+ SaaS companies</li>
+              <li>Companies building partner ecosystems</li>
+            </ul>
+
+            <a href="https://app.comarket.ing/auth?utm_source=comarket.ing&utm_medium=website&utm_campaign=pricing_cta"
+              class="btn btn-secondary">Get Started</a>
+          </div>
+
+          <!-- Enterprise -->
+          <div class="pricing-card">
+            <div class="pricing-name">Enterprise</div>
+            <div class="pricing-price">$1,500<span style="font-size: 24px;">+</span></div>
+            <div class="pricing-period">/ month</div>
+            <div class="pricing-purpose">Custom infrastructure for massive partner networks.</div>
+
+            <div class="pricing-section-title">Features</div>
+            <ul class="pricing-features">
+              <li>Unlimited partners</li>
+              <li>Private partner marketplace</li>
+              <li>Custom integrations</li>
+              <li>SSO (Single Sign-On)</li>
+              <li>Dedicated success manager</li>
+              <li>Partner marketplace hosting</li>
+            </ul>
+
+            <div class="pricing-section-title">Limits & Targets</div>
+            <ul class="pricing-targets">
+              <li>Unlimited team members</li>
+              <li>Large enterprises</li>
+              <li>Global networks</li>
+            </ul>
+
+            <a href="https://app.comarket.ing/auth?utm_source=comarket.ing&utm_medium=website&utm_campaign=pricing_cta"
+              class="btn btn-secondary">Contact Sales</a>
+          </div>
+
         </div>
       </div>
     </section>
