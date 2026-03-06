@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — CoMarket.ing</title>
+    <meta name="description"
+        content="Privacy Policy for CoMarket.ing, explaining how we collect, use, and protect your data and CRM integrations.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤝</text></svg>">
+    <style>
+        .legal-header {
+            padding: 120px 0 60px;
+            text-align: center;
+            background: var(--bg-alt);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .legal-header h1 {
+            margin-bottom: 16px;
+        }
+
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 80px 24px;
+        }
+
+        .legal-content h2 {
+            font-size: 28px;
+            margin: 48px 0 20px;
+            font-family: var(--font-sans);
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        .legal-content h3 {
+            font-size: 20px;
+            margin: 32px 0 16px;
+            font-family: var(--font-sans);
+            font-weight: 600;
+        }
+
+        .legal-content p,
+        .legal-content li {
+            margin-bottom: 16px;
+            line-height: 1.7;
+            color: var(--text-body);
+        }
+
+        .legal-content ul {
+            list-style: disc;
+            padding-left: 24px;
+            margin-bottom: 24px;
+        }
+
+        .last-updated {
+            font-family: var(--font-mono);
+            font-size: 13px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== NAV ===== -->
+    <header>
+        <nav class="nav" id="nav" aria-label="Main navigation">
+            <div class="container nav-inner">
+                <a href="/" class="nav-logo">
+                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="11" cy="16" r="8" stroke="#1c1917" stroke-width="2.2" fill="none" />
+                        <circle cx="21" cy="16" r="8" stroke="#6366f1" stroke-width="2.2" fill="none" />
+                    </svg>
+                    CoMarket.ing
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <a href="/#features" class="nav-link">Features</a>
+                    <a href="/#pricing" class="nav-link">Pricing</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">Log in</a>
+                    <a href="#" class="nav-link signup">Sign up</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="legal-header">
+            <div class="container">
+                <h1>Privacy Policy</h1>
+                <div class="last-updated">Last Updated: March 6, 2026</div>
+            </div>
+        </div>
+
+        <div class="legal-content">
+            <p>At CoMarket.ing ("we," "our," or "us"), privacy isn't just a policy—it's the core architecture of our
+                co-marketing platform. This Privacy Policy explains how we collect, use, process, and protect your
+                information, particularly regarding our CRM integration and account mapping features.</p>
+
+            <h2>1. Information We Collect</h2>
+            <p>When you use CoMarket.ing to discover and collaborate with partners, we collect the following types of
+                information:</p>
+
+            <h3>1.1 Account Information</h3>
+            <ul>
+                <li><strong>User Data:</strong> Name, email address, company name, role, and billing information.</li>
+                <li><strong>Company Profile:</strong> Target audience details, product descriptions, Ideal Customer
+                    Profile (ICP) vectors, and technology stack information used for AI partner matching.</li>
+            </ul>
+
+            <h3>1.2 CRM and Integration Data</h3>
+            <p>When you connect your CRM (e.g., Salesforce, HubSpot) via OAuth 2.0, we process data based strictly on
+                the permissions you grant and the inclusion/exclusion filters you configure:</p>
+            <ul>
+                <li><strong>Hashed Identifiers:</strong> We use cryptographic hashing (e.g., SHA-256) on email domains
+                    and identifiers before performing the overlap analysis.</li>
+                <li><strong>Segment Data:</strong> Information about which population segment a record belongs to (e.g.,
+                    "Prospect," "Open Opportunity," "Customer") to facilitate accurate mapping.</li>
+            </ul>
+            <p><strong>Crucial Note:</strong> Your raw CRM data never leaves your secure environment unless you
+                explicitly authorize a data share with a specific, approved partner.</p>
+
+            <h2>2. How We Use Account Mapping Data</h2>
+            <p>Our secure account mapping feature is designed with a "zero-trust" overlap architecture:</p>
+            <ul>
+                <li><strong>Anonymous Overlaps:</strong> By default, partners only see aggregate overlap counts (e.g.,
+                    "We have 142 shared prospects"). No PII (Personally Identifiable Information) or company identities
+                    are revealed without dual consent.</li>
+                <li><strong>Authorized Sharing:</strong> Only when both parties mutually agree to escalate a partnership
+                    do we facilitate the sharing of specific lead information (like domain names or enriched company
+                    profiles), and strictly within the segments approved by both parties.</li>
+            </ul>
+
+            <h2>3. AI Matching and Data Privacy</h2>
+            <p>We use Natural Language Processing (NLP) to generate ICP vectors for partner matching. This process uses
+                publicly available firmographic data and the generalized product descriptions you provide. We do
+                <strong>not</strong> use your proprietary CRM data or customer lists to train our foundational models or
+                improve the matching algorithm for other users.</p>
+
+            <h2>4. Data Security and Storage</h2>
+            <p>We implement enterprise-grade security measures:</p>
+            <ul>
+                <li>All data is encrypted in transit (TLS 1.3) and at rest (AES-256).</li>
+                <li>We conduct regular third-party penetration testing.</li>
+                <li>Access to production databases is strictly limited to authorized personnel via zero-trust network
+                    access (ZTNA).</li>
+            </ul>
+
+            <h2>5. Your Rights</h2>
+            <p>Depending on your location (e.g., GDPR, CCPA), you have the right to:</p>
+            <ul>
+                <li>Access the personal data we hold about you.</li>
+                <li>Request deletion of your account and associated CRM linkages (the "right to be forgotten").</li>
+                <li>Revoke OAuth CRM access at any time, which instantly terminates our ability to process new overlaps
+                    for your account.</li>
+            </ul>
+
+            <h2>6. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy or our security practices, please contact our Data
+                Protection Officer at <strong>privacy@comarket.ing</strong>.</p>
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" role="contentinfo">
+        <!-- Simplified footer for legal pages -->
+        <div class="container text-center">
+            <div class="footer-bottom" style="border-top: none; justify-content: center; padding-top: 0;">
+                <p>© 2026 CoMarket.ing. All rights reserved. <a href="/">Back to Home</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
